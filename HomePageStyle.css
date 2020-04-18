@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+html {
+  background: rgb(246, 248, 248);
+}
+body {
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400; 
+}
+#header img {
+	display:block;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:100px;
+	border-style:none;
+	display:block;
+	-moz-box-shadow: 0 0 10px #808080;
+	-webkit-box-shadow: 0 0 10px #808080;
+	box-shadow: 0px 0px 10px #808080;
+}
+p {
+	color:#1b1c1c;
+}
+#title {
+	font-size:30px;
+	text-align:center;
+	margin-bottom: 0px;
+}
+#subtitle {
+	font-size:15px;
+	text-align:center;
+	margin-top:5px;
+	padding-bottom:20px;
+}
+.options {
+	display:flex;
+	/*align-items: center;*/
+	justify-content:center;
+	position:relative;
+	
+}
+.navblock {
+  width: 250px;
+  background: #0F1012; 
+  color: #f9f9f9;
+  float: left;
+  position:relative;
+  transition: all 200ms ease-in;
+  transform:scale(1);
+  border-radius: 10px;
+}
+.navblock:hover {
+	box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
+	z-index: 2;
+	transition: all 200ms ease-in;
+	transform: scale(1.2);
+	-webkit-transition: all 200ms ease-in;
+	-webkit-transform: scale(1.2);
+}
+.navblock .title {
+  display: block;
+  width: 250px;  
+  background: #292b2e;
+  margin: 0px 0 15px 0;
+  text-align: center;
+  color:#28B0BC;
+  text-shadow:1px 1px 30px white;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 17px 0 17px 0;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+ul {
+  display: block;
+  margin: 20px 0 10px 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  color: #999999;
+}
+li {
+  display: block;
+  margin: 10px 0 0 0;
+}
+h1{
+	display:block;
+	margin:10px 0 0 0;
+	font-size:15px;
+	font-weight:bold;
+	color:white;
+}
+button {
+  border-style: outlet;
+  border-color:#4ECED9;
+  border-radius: 40px;
+  background: #28B0BC;
+  color: #f9f9f9;
+  padding: 10px 37px;
+  margin: 10px 0 20px 60px;
+  
+}
+a {
+color:white;
+text-decoration:none;
+}
+/*.scale {
+  transform: scale(1.2);
+  box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
+}
+.scale button {
+  background: #4ECED9;
+}
+.scale .title {
+  color: #64AAA4;
+}*/
