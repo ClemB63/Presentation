@@ -6,7 +6,7 @@ body {
   padding: 0px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  font-weight: 400; 
+  font-weight: 400;
 }
 #header img {
 	display:block;
@@ -39,11 +39,11 @@ p {
 	/*align-items: center;*/
 	justify-content:center;
 	position:relative;
-	
+
 }
 .navblock {
   width: 250px;
-  background: #0F1012; 
+  background: #0F1012;
   color: #f9f9f9;
   float: left;
   position:relative;
@@ -61,7 +61,7 @@ p {
 }
 .navblock .title {
   display: block;
-  width: 250px;  
+  width: 250px;
   background: #292b2e;
   margin: 0px 0 15px 0;
   text-align: center;
@@ -100,7 +100,7 @@ button {
   color: #f9f9f9;
   padding: 10px 37px;
   margin: 10px 0 20px 60px;
-  
+
 }
 a {
 color:white;
