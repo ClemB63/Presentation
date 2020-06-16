@@ -1,0 +1,99 @@
+p {
+	color:#1b1c1c;
+	font-size:18px;
+	font-family: Lucida, Helvetica;
+	padding-left:30px;
+	padding-right:30px;
+    text-align: center;
+}
+#title {
+	font-size:30px;
+	text-align:center;
+}
+#subtitle {
+	font-size:15px;
+	text-align:center;
+	padding-bottom:60px;
+}
+#header {
+	color:#1b1c1c; 
+}
+h1 {
+	display:block;
+	width:auto;
+	margin-left:40%;
+	margin-right:40%;
+	background-color:#28B0BC;
+	text-align:center;
+	font-size:25px;
+	color:#1b1c1c;
+	border-style:none;
+	border-color:#4ECED9;
+	border-radius:20px;
+	-moz-box-shadow: 0 0 10px #808080;
+	-webkit-box-shadow: 0 0 10px #808080;
+	box-shadow: 0px 0px 10px #808080;
+	padding:10px;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+h2 {
+	color:#28B0BC;
+	text-align:center;	
+}
+#header img {
+	display:block;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:100px;
+	border-style:none;
+	display:block;
+	-moz-box-shadow: 0 0 10px #808080;
+	-webkit-box-shadow: 0 0 10px #808080;
+	box-shadow: 0px 0px 10px #808080;
+	
+}
+	/* css list with arrow images  -------------- */
+.imglist ul{
+    margin:0px;
+}
+.imglist li{
+	display:inline-block;
+    font-size:20px;
+	text-align: center;
+	font-family:Lucida, Helvetica;
+    margin-left:20px;
+	margin-right:20px;
+	margin-top:0px;
+    padding:0px;
+    list-style:url(icons8-créativité-48.png);
+    line-height:40px;
+}
+progress::-webkit-progress-bar {
+	background-color: #1b1c1c; 
+	width: 100%;
+	border-radius:20px
+}
+progress::-webkit-progress-value {
+	background-color: #4ECED9 !important;
+	border-radius:20px
+}
+progress {
+	background-color: #1b1c1c;
+	border-radius:20px
+}
+
+progress::-moz-progress-bar {
+	background-color: #4ECED9 !important;
+	border-radius:20px
+}
+progress {
+	background-color: #1b1c1c;
+	border-radius:20px
+}
+progress {
+	color: #4ECED9;
+	border-radius:20px
+}
+
