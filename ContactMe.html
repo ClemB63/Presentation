@@ -22,7 +22,7 @@ body {
   border-radius: 20px;
 }
 
-img {
+.profilepic {
   width: 60%;
   border: none;
   border-radius: 50%;
@@ -41,7 +41,7 @@ h1 {
   text-align:center;
 }
 
-a {
+#social{
   font-size: 26px;
   padding: 7px 12px;
   text-decoration: none;
@@ -50,26 +50,27 @@ a {
   border-radius: 10px;
 }
 
-a:hover {
+#social:hover {
   background-color: #00c8ff;
 }
+
 </style>
   <body>
-    <a href="https://clemb63.github.io/Presentation/"><img width="50" height="50" border="0" src="httpzcoolcomcnpicpng1new_png1_052actionIcons_013png.png" alt="Home" /></a>
+    <a href="https://clemb63.github.io/Presentation/"><img width="50px" height="50px" border="0" src="httpzcoolcomcnpicpng1new_png1_052actionIcons_013png.png" alt="Home" /></a>
 
     <h1 style="text-align:center">N'hésitez pas à me contacter!</h1>
 
     <div class="card">
-      <img src="profilepic.jpg" alt="image" />
+      <img class="profilepic" src="profilepic.jpg" alt="image" />
       <h1>Clémence Ballereau</h1>
       <div>Future étudiante en Développement Web et Web Mobile</div>
       <p class="designation">Téléphone: <br>06.15.11.06.90</p>
       <p class="designation">E-mail: <br>ballereau.clemence@gmail.com</p>
       <div class="social">
-        <a href="https://www.facebook.com/clemence.ballereau/"><i class="fa fa-facebook"></i></a>
-        <a href="https://www.instagram.com/crazy_catgal/?hl=fr"><i class="fa fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/cl%C3%A9mence-ballereau-028a18186/?originalSubdomain=fr"><i class="fa fa-linkedin"></i></a>
-        <a href="https://twitter.com/AggroTsuki"><i class="fa fa-twitter"></i></a>
+        <a id="social" href="https://www.facebook.com/clemence.ballereau/"><i class="fa fa-facebook"></i></a>
+        <a id="social" href="https://www.instagram.com/crazy_catgal/?hl=fr"><i class="fa fa-instagram"></i></a>
+        <a id="social" href="https://www.linkedin.com/in/cl%C3%A9mence-ballereau-028a18186/?originalSubdomain=fr"><i class="fa fa-linkedin"></i></a>
+        <a id="social" href="https://twitter.com/AggroTsuki"><i class="fa fa-twitter"></i></a>
       </div>
     </div>
   </body>
