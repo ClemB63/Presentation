@@ -1,47 +1,69 @@
-p {
-	color:#1b1c1c;
-}
-#title {
-	font-size:30px;
-	text-align:center;
-}
-#subtitle {
-	font-size:15px;
-	text-align:center;
-	padding-bottom:60px;
-}
-#header {
-	color:#1b1c1c; 
-}
-h1 {
-	display:block;
-	width:auto;
-	margin-left:40%;
-	margin-right:40%;
-	background-color:#28B0BC;
-	text-align:center;
-	font-size:25px;
-	color:#1b1c1c;
-	border-style:none;
-	border-color:#4ECED9;
-	border-radius:20px;
-	-moz-box-shadow: 0 0 10px #808080;
-	-webkit-box-shadow: 0 0 10px #808080;
-	box-shadow: 0px 0px 10px #808080;
-	padding:10px;
-	margin-top:40px;
-	margin-bottom:40px;
-}
-#header img {
-	display:block;
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	border-radius:100px;
-	border-style:none;
-	display:block;
-	-moz-box-shadow: 0 0 10px #808080;
-	-webkit-box-shadow: 0 0 10px #808080;
-	box-shadow: 0px 0px 10px #808080;
-	
-}
+<!DOCTYPE html>
+<html>
+    <head>
+		<style>
+		body {
+		background-color:white;
+		font-family:Lucida, sans-serif, helvetica;
+		}
+		</style>
+        <title>Blogs are not in anymore</title>
+        <link href="AboutMeStyle.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- header start -->
+        <div id="header" class="section">
+            <img alt="MyPic" class="img-circle" src="profilepic.jpg" height="200px" width="200px">
+            <!--<p id="title">Bienvenue sur ma toute première page web!</p>
+			<p id="subtitle">Je débute dans l'apprentissage du Code, soyez indulgents...pitié...</p>-->
+        </div>
+        <!-- header end -->
+
+        <!-- About Me section start -->
+        <div class="section">
+            <p><h1>Hello World !</h1></p>
+			<p><h2>Bienvenue sur mon premier projet, dédié à postuler à la formation Développeur Web et Web Mobile ! </br > Comme vous pouvez le constater, mes compétences sont…minces. <br >Cependant, si vous êtes là, c’est que mon profil vous intéresse, non ? </h2>
+			<p><h1>Qui suis-je ?</h1></p>
+        <p>Je suis une ancienne professeure d’anglais en collège, originaire de la région Centre, j’ai 31 ans, deux chats, une famille soudée, un petit appartement  décoré avec goût, et une voiture affectueusement surnommée « Toutoune ».J’ai fait une partie de mes études à Clermont Ferrand, et je suis ravie de pouvoir m’y ré-installer aujourd’hui dans le cadre de ma reconversion. J’ai une passion dévorante pour le dessin et l’aquarelle, et la création graphique en général, ainsi que pour la lecture et les jeux vidéo. D’un naturel affirmé,je suis curieuse, enthousiaste et patiente, et j’ai en général un très bon relationnel avec les gens qui m’entourent. J’aspire à une vie équilibrée dans tous ses aspects, et je cultive l’ouverture d’esprit, le partage et la tolérance comme mes valeurs centrales.
+        </p>
+			<p><h1>Mon Parcours</h1></p>
+				<p>Issue d’une formation littéraire, j’ai un BTS en Communication Visuelle option Graphisme et Publicité, une Licence en métiers du Livre et Multimédia et un Master 1 en Création Editoriale Générale et de Jeunesse. Avec tout ça en poche, j’ai été maquettiste freelance pendant un an dans le secteur du jeu de rôle, avant d’avoir besoin d’argent pour manger et de devoir me tourner vers l’enseignement. J’ai passé 6 ans dans l’Education Nationale comme assistante pédagogique (c’est comme ça qu’on appelait le type d’esclave qui faisait le travail d’un professeur sans sa paye avant l’arrivée des Services Civiques) puis comme professeure d’anglais contractuelle (même ordre d’idée, les déplacements sur deux établissements et  les réunions en plus). J’ai passé mon concours d’anglais, j’ai été reçue sur liste complémentaire, et j’ai décidé d’y renoncer de me reconvertir dans les métiers du numérique. Je ne vous apprendrai sans doute rien en vous disant que l’Education Nationale n’est pas (plus) un espace où une créative dans mon genre peut s’épanouir. J’ai cependant passé 6 ans riches en apprentissages, et sors de cette expérience bardée de « Soft Skills » toutes plus utiles les unes que les autres!<br>
+ Je dédicace ma nouvelle vie à mon adorable professeure de Maths de terminale, qui m’a dit un jour :
+« Non mais c’est logique ce que tu me fais, c’est  toujours logique et tu arrives toujours aux résultats, mais ce n’était pas la formule que j’avais demandé… » et « Non mais non, avec des notes pareilles en Maths, l’informatique, c’est même pas la peine pour toi, va faire des langues, c’est ton domaine ça…»
+Devinez quoi : le Code, c’est des langues, l’informatique, c’est de la logique. C’est avec ça en tête que j’ai choisi de me tourner vers le Développement, qui allie langages, construction, recherche et créativité.
+ </p>
+
+			<p><h1>Mes compétences à votre service</h1></p>
+				<div class="imglist">
+					<ul>
+						<li>Adaptabilité <br />
+						<progress min="0" max="100" value="75"></progress>
+						</li>
+						<li>Relationnel <br />
+						<progress min="0" max="100" value="100"></progress>
+						</li>
+						<li>Pédagogie <br />
+						<progress min="0" max="100" value="95"></progress>
+						</li>
+						<li>Rédaction <br />
+						<progress min="0" max="100" value="80"></progress>
+						</li>
+						<li>Esprit d’équipe <br />
+						<progress min="0" max="100" value="70"></progress>
+						</li>
+						<li>Autonomie <br />
+						<progress min="0" max="100" value="75"></progress>
+						</li>
+						<li>Anglais <br />
+						<progress min="0" max="100" value="90"></progress>
+						</li>
+					</ul>
+				</div>
+			<p><h1>Pourquoi Simplon?</h1><p>
+			<p>J’ai eu la chance d’assister à une réunion collective de présentation des formations numériques Simplon, et surtout de visiter les locaux et de rencontrer des élèves de la première promotion de Développement Web. Ce qui m’intéresse avant tout chez Simplon, c’est la pédagogie de projet. J’ai été en école supérieure d’art appliqués, et c’est exactement ce genre d’ambiance que propose Simplon : des projets concrets apportés par des entreprises locales, un vrai esprit d’équipe, une autonomie quasi-totale dans la résolution des problèmes, et un accompagnement professionnel ET personnel. Je ne pense plus être capable de suivre des études type LMD, assise sur un banc d’amphi inconfortable à (tenter d’)écouter un cours magistral de 4h que je prendrai 2h à recopier au propre pour essayer de le faire rentrer dans ma tête. J’ai besoin de concret, de mettre les mains dans le cambouis, d’essayer, de faire, de comprendre par l’action. Au-delà de leurs propositions pédagogiques, Simplon m’attire aussi plus que d’autres pour le côté professionnel de leur approche, qui met en valeur autant le savoir-faire que le savoir-être et pousse à devenir un atout complet pour une entreprise, pas seulement en terme de compétence informatique brute, mais aussi en terme de compétences passives et transverses. Enfin, soyons un peu honnêtes, la gratuité de la formation aide aussi un peu. Simplon est une école jeune, j’espère pouvoir faire partie de son développement en apportant toute mes compétences et ma bonne humeur à la prochaine promotion !</p>
+
+         <p><h2>Laissez moi vous prouver ce que je vaux en m'intégrant à vos effectifs!</h2><p>
+        </div>
+        <!-- About Me section end -->
